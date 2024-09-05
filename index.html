@@ -3,8 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/styles/style.css" rel="stylesheet" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Flex box</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="block block-1">
+        <div class="box fixed-height"></div>
+        <div class="box fixed-height"></div>
+        <div class="box fixed-height"></div>
+      </div>
+      <div class="block block-2">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="block block-3">
+        <div class="box fixed-height"></div>
+        <div class="box fixed-height"></div>
+        <div class="box fixed-height"></div>
+      </div>
+
+      <div class="block block-4">
+        <div class="box fixed-height"></div>
+        <div class="box fixed-height"></div>
+        <div class="box box-3 fixed-height"></div>
+      </div>
+      <div class="block block-5">
+        <div class="box box-5">
+          <p class="text-content">Some Text</p>
+        </div>
+        <div class="box fixed-height">
+          <p class="text-content">Some Text</p>
+        </div>
+        <div class="box box-5">
+          <p class="text-content">Some Text</p>
+        </div>
+      </div>
+      <div class="block block-6">
+        <div class="box fixed-height"></div>
+        <div class="box box-2"></div>
+        <div class="box fixed-height"></div>
+      </div>
+    </div>
+  </body>
 </html>
